@@ -6,6 +6,7 @@
   <body>
     <header class="header">
       <h1>WebApp &#8482</h1>
+
       <div> <!--contains the bell icon-->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.033 122.88">
             <title>Image of a bell</title>
@@ -34,8 +35,106 @@
       </a>
     </nav>
 
-    <main>
+    <main class="main"> <!--widget container-->
       <h1>Dashboard</h1>
+      
+      <!--"Alert: You have unread messages" box-->
+
+      <section class="traffic">
+        <h2>TRAFFIC</h2>
+        <!--Hourly Daily Weekly Monthly-->
+        <!--Line Chart-->
+      </section>  
+
+      <section class="daily-traffic">
+        <h2>DAILY TRAFFIC</h2>
+        <!--Bar graph-->
+      </section>
+
+      <section class="mobile-users">
+        <h2>MOBILE USERS</h2>
+        <!--Pie chart-->
+      </section>
+
+      <section class="social-stats">
+        <h2>SOCIAL STATS</h2>
+
+        <img src="./svgs/facebook.svg" alt="facebook icon">
+        <p>Facebook</p>
+        <p>10,320</p>
+
+        <img src="./svgs/instagram.svg" alt="instagram icon">
+        <p>Instagram</p>
+        <p>16,445</p>
+
+        <img src="./svgs/twitter.svg" alt="twitter icon">
+        <p>Twitter</p>
+        <p>22,189</p>
+      </section>
+
+      <section class="new-members">
+        <h2>NEW MEMBERS</h2>
+
+        <img src="./images/member-1.jpg" alt="Image of female face">
+        <p>Vicoria Chambers</p>
+        <email>victoria.chambers80@example.com</email>
+        <p>10/15/20</p>
+
+        <img src="./images/member-2.jpg" alt="Image of male face">
+        <p>Dale Byrd</p>
+        <email>dale.byrd52@example.com</email>
+        <p>10/15/20</p>
+
+        <img src="./images/member-3.jpg" alt="Image of female face">
+        <p>Dawn Wood</p>
+        <email>dawn.wood16@example.com</email>
+        <p>10/15/20</p>
+
+        <img src="./images/member-4.jpg" alt="Image of male face">
+        <p>Dan Oliver</p>
+        <email>dan.oliver@example.com</email>
+        <p>10/15/20</p>
+      </section>
+
+      <section class="recent-activity">
+        <h2>RECENT ACTIVITY</h2>
+
+        <img src="./images/member-1.jpg" alt="Image of female face">
+        <p>Victoria Chambers commented on WebApp's SEO Tips 4 hours ago</p>
+        
+        <img src="./images/member-2.jpg" alt="Image of male face">
+        <p>Dale Byrd liked the post Facebook's Changes for 2021 5 hours ago</p>
+        
+        <img src="./images/member-3.jpg" alt="Image of female face">
+        <p>Dawn Wood commented on Facebook's Changes for 2021 5 hours ago</p>
+        
+        <img src="./images/member-4.jpg" alt="Image of male face">
+        <p>Dan Oliver posted WebApp's SEO Tips 1 day ago</p>
+      </section>
+
+      <section class="message-user">
+        <h2>MESSAGE USER</h2>
+        <!--Search for user, text box-->
+        <form>
+          <input type="text" name="search_for_user" value="Search for user" id="search_input">        
+        </form>
+        <!--Message for User, text area-->
+        <form>
+          <textarea id="message_textarea" name="message_for_user" type="text" rows="8" cols="30">
+          Message for user
+          </textarea>    
+        </form>
+        <!--Send button-->
+      </section>
+
+      <section class="settings">
+        <h2>SETTINGS</h2>  
+            <!--Send Email Notifications, toggle button-->
+            <!--Set Profile to Public, toggle button-->
+            <!--Select Time Zone drop down menu-->
+            <!--Save button-->
+            <!--Cancel button-->
+      </section>
     </main>
   </body>
 </html>
