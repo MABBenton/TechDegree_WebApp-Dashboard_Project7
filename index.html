@@ -38,13 +38,29 @@
     <main> <!--widget container-->
       <div class="main-header">
         <h2 class="headline">Dashboard</h2>
-        <div class="tab"></div><!--"Alert: You have unread messages" box-->
+        <div class="tab"></div>
       </div>
 
+      <!--"Alert: You have unread messages" banner-->
+      <div class="alert" id="alert">
+        <!--JS will create alert here-->
+      </div>
+
+      <!--line graph charts-->
       <section class="traffic">
-        <h2>TRAFFIC</h2>
-        <!--Hourly Daily Weekly Monthly-->
-        <!--Line Chart-->
+        <div class="traffic-header">
+          <h3>TRAFFIC</h3>
+          <ul class="traffic-nav">
+            <li class="traffic-nav-link">Hourly</li>
+            <li class="traffic-nav-link">Daily</li>
+            <li class="traffic-nav-link">Weekly</li>
+            <li class="traffic-nav-link">Monthly</li>
+          </ul>
+        </div>
+        <div id="widget-container-full">
+          <!--canvas line graph will attach here-->
+          <canvas id="traffic-chart"></canvas>
+        </div>
       </section>  
 
       <section class="daily-traffic">
