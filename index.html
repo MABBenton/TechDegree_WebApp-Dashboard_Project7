@@ -197,28 +197,36 @@
         </div>
       </section>
 
-      <section class="message-user">
-        <h2>MESSAGE USER</h2>
-        <!--Search for user, text box-->
-        <form>
-          <input type="text" name="search_for_user" value="Search for user" id="search_input">        
+      <!--messaging widget-->
+      <section class="message">
+        <h3>MESSAGE USER</h3>
+
+        <form class="widget-container">
+          <input type="text" placeholder="Search for user" class="form-field" id="userField">        
+          <textarea placeholder="Message for user" class="form-area" id="messageField"></textarea>    
+          <button class="button-primary" id="send">Send</button>
         </form>
-        <!--Message for User, text area-->
-        <form>
-          <textarea id="message_textarea" name="message_for_user" type="text" rows="8" cols="30">
-          Message for user
-          </textarea>    
-        </form>
-        <!--Send button-->
       </section>
 
       <section class="settings">
-        <h2>SETTINGS</h2>  
-            <!--Send Email Notifications, toggle button-->
-            <!--Set Profile to Public, toggle button-->
-            <!--Select Time Zone drop down menu-->
-            <!--Save button-->
-            <!--Cancel button-->
+        <h3>SETTINGS</h3>  
+            <!--custom CSS, Send Email Notifications, toggle button-->
+            
+            <!--custom CSS, Set Profile to Public, toggle button-->
+
+          <select class="form-field" id="timezone">
+            <option disabled selected>Select a Timezone</option>
+            <option>Eastern</option>
+            <option>Central</option>
+            <option>Mountain</option>
+            <option>Pacific</option>
+            <option>Alaskan</option>
+            <option>Hawaiian</option>  
+          </select>     
+          <div class="settings-button">
+            <button class="button-primary" id="save">Save</button>
+            <button class="button-diasabled" id="cancel">Cancel</button>
+          </div>  
       </section>
     </main>
   </body>
