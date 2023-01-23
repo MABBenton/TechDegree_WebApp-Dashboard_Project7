@@ -1,0 +1,40 @@
+/* Toggle Switch */
+#toggle-switch {
+  -webkit-appearance: none;
+  position: relative;
+  width: 90px;
+  height: 35px;
+  border-radius: 25px;
+  transition: background .3s;
+  background-color: rgb(97, 60, 199);
+  outline: solid 2px rgb(185, 185, 185);
+  cursor: pointer;
+}
+
+#toggle-switch::before {
+  content: 'ON';
+  color: white;
+  padding: 0 88% 0 12%;
+  
+}
+
+#toggle-switch::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  height: 1.3rem;
+  width: 1.3rem;
+  background-color: white;
+  outline: solid 2px rgb(185, 185, 185);
+}
+
+#toggle-switch:checked {
+  background-color: rgb(185, 185, 185);
+}
+
+#toggle-switch:checked:after {
+  left: 22%;
+}
