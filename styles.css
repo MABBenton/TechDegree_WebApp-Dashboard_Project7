@@ -4,6 +4,7 @@ body {
 
 a {
   color:rgb(97, 60, 199);
+  text-decoration: none;
 }
 
 /* Toggle Switch */
