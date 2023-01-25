@@ -1,3 +1,11 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  color:rgb(97, 60, 199);
+}
+
 /* Toggle Switch */
 #toggle-switch {
   -webkit-appearance: none;
