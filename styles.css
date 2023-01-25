@@ -14,8 +14,16 @@
 #toggle-switch::before {
   content: 'ON';
   color: white;
-  padding: 0 88% 0 12%;
-  
+  top: 27%;
+  left: 10%;
+  position: absolute;
+}
+
+#toggle-switch:checked:before {
+  content: 'OFF';
+  color: white;
+  top: 27%;
+  left: 60%;
 }
 
 #toggle-switch::after {
