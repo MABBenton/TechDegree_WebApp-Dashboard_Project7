@@ -30,6 +30,22 @@ a {
 
 .main {
   grid-area: main;
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 60px 1fr;
+    grid-template-areas:
+      "header header"
+      "nav main";
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*id selectors*/
