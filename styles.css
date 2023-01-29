@@ -10,18 +10,6 @@ a {
 }
 
 /*grid*/
-header {
-  grid-area: header;
-}
-
-nav {
-  grid-area: nav;
-}
-
-main {
-  grid-area: main;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 100%;
@@ -29,7 +17,19 @@ main {
   grid-template-areas: 
     "header"
     "nav"
-    "main"; 
+    "main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.main {
+  grid-area: main;
 }
 
 /*id selectors*/
