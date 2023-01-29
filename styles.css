@@ -1,3 +1,5 @@
+
+/*element selectors*/
 body {
   font-family: 'Noto Sans', sans-serif;
 }
@@ -6,6 +8,31 @@ a {
   color:rgb(97, 60, 199);
   text-decoration: none;
 }
+
+/*grid*/
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "main"; 
+}
+
+/*id selectors*/
 
 /* Toggle Switch */
 #toggle-switch {
