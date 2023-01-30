@@ -9,6 +9,8 @@ a {
   text-decoration: none;
 }
 
+/*id selectors*/
+
 /*grid*/
 .grid-container {
   display: grid;
@@ -44,9 +46,12 @@ a {
   .main {
     grid-template-columns: 1fr 1fr;
   }
-}
 
-/*id selectors*/
+  .traffic,
+  .social-container {
+    grid-column: 1 / span 2;
+  }
+}
 
 /*class selectors*/
 
