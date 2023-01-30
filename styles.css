@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color:rgb(97, 60, 199);
+  color:rgb(127, 102, 195);
   text-decoration: none;
 }
 
@@ -40,15 +40,40 @@ a {
       "header header"
       "nav main";
   }
-}
 
-@media (min-width: 1024px) {
   .main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 /*id selectors*/
+
+/*class selectors*/
+
+.header, .alert {
+  background-color:rgb(127, 102, 195);
+}
+
+.nav {
+  background-color:rgb(78, 64, 119);
+}
+
+.header, 
+.alert, 
+.button-primary, 
+.button-disabled {
+  color: white;
+}
+
+.button-primary {
+  background-color:rgb(127, 102, 195);
+  border: none;
+}
+
+.button-disabled {
+  background-color:rgb(185, 185, 185);
+  border: none;
+}
 
 /* Toggle Switch */
 #toggle-switch {
@@ -58,7 +83,7 @@ a {
   height: 35px;
   border-radius: 25px;
   transition: background .3s;
-  background-color: rgb(97, 60, 199);
+  background-color: rgb(127, 102, 195);
   outline: solid 2px rgb(185, 185, 185);
   cursor: pointer;
 }
