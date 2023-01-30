@@ -35,7 +35,7 @@ a {
 
 @media (min-width: 768px) {
   .grid-container {
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 70px 1fr;
     grid-template-areas:
       "header header"
       "nav main";
@@ -56,6 +56,10 @@ a {
 
 .nav {
   background-color:rgb(78, 64, 119);
+}
+
+.nav-icon {
+  padding: 1em;
 }
 
 .header, 
