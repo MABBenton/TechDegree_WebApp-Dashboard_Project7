@@ -30,14 +30,21 @@ a {
 }
 
 .item2 {
-  margin-top: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-right: solid 2px rgb(185, 185, 185);
+}
+
+.bell-icon {
+  margin-top: .6rem;
+  margin-right: 1rem;
 }
 
 .item4 {
   border-radius: 50%;
   height: 3.5rem;
   margin-top: .9rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .item5 {
