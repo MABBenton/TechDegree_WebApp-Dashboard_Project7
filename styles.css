@@ -11,47 +11,6 @@ a {
 
 /*id selectors*/
 
-/*grid*/
-.grid-container {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header"
-    "nav"
-    "main";
-}
-
-.header {
-  grid-area: header;
-}
-
-.nav {
-  grid-area: nav;
-}
-
-.main {
-  grid-area: main;
-  display: grid;
-}
-
-@media (min-width: 768px) {
-  .grid-container {
-    grid-template-columns: 70px 1fr;
-    grid-template-areas:
-      "header header"
-      "nav main";
-  }
-
-  .main {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .traffic,
-  .social-container {
-    grid-column: 1 / span 2;
-  }
-}
 
 /*class selectors*/
 
@@ -139,4 +98,52 @@ a {
 
 #toggle-switch:checked:after {
   left: 22%;
+}
+
+/*grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+}
+
+/*media queries*/
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 70px 1fr;
+    grid-template-areas:
+      "header header"
+      "nav main";
+  }
+
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .traffic,
+  .social,
+  .members,
+  .activity,
+  .message,
+  .settings {
+    grid-column: 1 / span 2;
+  }
 }
