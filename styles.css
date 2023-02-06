@@ -13,8 +13,39 @@ a {
 
 
 /*class selectors*/
+.header {
+  display: flex;
+  justify-content: space-around;
+}
 
-.header, .alert {
+.item1 {
+  margin-left: 1rem;
+}
+
+.item2,
+.item3,
+.item4,
+.item5 {
+  margin-left: auto;
+}
+
+.item2 {
+  margin-top: 1.4rem;
+}
+
+.item4 {
+  border-radius: 50%;
+  height: 3.5rem;
+  margin-top: .9rem;
+  margin-left: 2rem;
+}
+
+.item5 {
+  margin: 2rem 1rem 0 1.5rem;
+}
+
+.header, 
+.alert {
   background-color:rgb(127, 102, 195);
 }
 
