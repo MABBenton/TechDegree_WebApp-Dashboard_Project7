@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+canvas {
+  width: 100%;
+}
+
 /*id selectors*/
 
 
