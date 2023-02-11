@@ -9,8 +9,9 @@ a {
   text-decoration: none;
 }
 
-canvas {
-  width: 100vw;
+.widget-container-full,
+.widget-container-half {
+  width: 95vw;
 }
 
 /*id selectors*/
@@ -22,18 +23,18 @@ canvas {
   justify-content: space-around;
 }
 
-.item1 {
+.header-item1 {
   margin-left: 1rem;
 }
 
-.item2,
-.item3,
-.item4,
-.item5 {
+.header-item2,
+.header-item3,
+.header-item4,
+.header-item5 {
   margin-left: auto;
 }
 
-.item2 {
+.header-item2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-right: solid 2px rgb(185, 185, 185);
@@ -210,5 +211,13 @@ canvas {
   .activity,
   .settings {
     grid-column: 2 / span 1;
+  }
+
+  .widget-container-full {
+    width: 90vw;
+  }
+
+  .widget-container-half {
+    width: 45vw;
   }
 }
