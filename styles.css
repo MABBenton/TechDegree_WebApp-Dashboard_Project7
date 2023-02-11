@@ -9,15 +9,11 @@ a {
   text-decoration: none;
 }
 
-.widget-container-full,
-.widget-container-half {
-  width: 95vw;
-}
-
 /*id selectors*/
 
 
 /*class selectors*/
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -45,14 +41,13 @@ a {
   margin-right: 1rem;
 }
 
-.item4 {
-  border-radius: 50%;
+.header-item4 {
   height: 3.5rem;
   margin-top: .9rem;
   margin-left: 1rem;
 }
 
-.item5 {
+.header-item5 {
   margin: 2rem 1rem 0 1.5rem;
 }
 
@@ -69,12 +64,21 @@ a {
   padding: 1em;
 }
 
+.profile-image {
+  border-radius: 50%;
+}
+
 .facebook-icon,
 .instagram-icon,
 .twitter-icon {
   fill: white;
   background-color: rgb(127, 102, 195);
   border-radius: 50%;
+}
+
+.widget-container-full,
+.widget-container-half {
+  width: 95vw;
 }
 
 .header, 
