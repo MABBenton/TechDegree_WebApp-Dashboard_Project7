@@ -10,7 +10,7 @@ a {
 }
 
 canvas {
-  width: 100%;
+  width: 100vw;
 }
 
 /*id selectors*/
@@ -187,5 +187,28 @@ canvas {
   .message,
   .settings {
     grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .traffic,
+  .social {
+    grid-column: 1 / span 2;
+  }
+
+  .daily,
+  .members,
+  .message {
+    grid-column: 1 / span 1;
+  }
+
+  .mobile,
+  .activity,
+  .settings {
+    grid-column: 2 / span 1;
   }
 }
