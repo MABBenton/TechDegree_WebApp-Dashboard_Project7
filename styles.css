@@ -49,6 +49,27 @@ h3 {
   border-radius: 50%;
 }
 
+.profile-image {
+  height: 15rem;
+}
+
+.members-container {
+  margin: 5rem 3rem;
+  text-align: center;
+}
+
+.members-text p,
+p {
+  margin: 0;
+}
+
+.member1,
+.member2,
+.member3 {
+  border-bottom: solid 3px rgb(195, 195, 195);
+  padding-bottom: 5rem;
+}
+
 .widget-container-full,
 .widget-container-half {
   width: 95vw;
