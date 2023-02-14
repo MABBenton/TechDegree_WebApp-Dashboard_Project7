@@ -4,10 +4,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-p {
-  font-size: .8em;
-}
-
 a {
   color:rgb(127, 102, 195);
   text-decoration: none;
@@ -71,6 +67,7 @@ h3 {
 .activity-text p {
   margin: 0;
   line-height: 1.2;
+  font-size: .9em;
 }
 
 .member1,
