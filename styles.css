@@ -4,6 +4,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+p {
+  font-size: .8em;
+}
+
 a {
   color:rgb(127, 102, 195);
   text-decoration: none;
@@ -17,6 +21,7 @@ ul {
 h2,
 h3 {
   margin: 3rem 0 3rem 3rem;
+  font-weight: bolder;
 }
 
 /*id selectors*/
@@ -37,8 +42,9 @@ h3 {
   padding: 1em;
 }
 
-.profile-image {
-  border-radius: 50%;
+.widget-container-full,
+.widget-container-half {
+  width: 95vw;
 }
 
 .facebook-icon,
@@ -50,17 +56,21 @@ h3 {
 }
 
 .profile-image {
+  border-radius: 50%;
   height: 15rem;
 }
 
-.members-container {
+.members-container,
+.activity-container {
   margin: 5rem 3rem;
   text-align: center;
 }
 
 .members-text p,
-p {
+.members-text,
+.activity-text p {
   margin: 0;
+  line-height: 1.2;
 }
 
 .member1,
@@ -68,11 +78,6 @@ p {
 .member3 {
   border-bottom: solid 3px rgb(195, 195, 195);
   padding-bottom: 5rem;
-}
-
-.widget-container-full,
-.widget-container-half {
-  width: 95vw;
 }
 
 .header, 
