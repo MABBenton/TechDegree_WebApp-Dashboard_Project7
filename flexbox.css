@@ -19,7 +19,7 @@
   .header-item2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-right: solid 2px rgb(185, 185, 185);
+    border-right: solid 2px rgb(195, 195, 195);
   }
   
   .bell-icon {
@@ -45,4 +45,47 @@
   justify-content: space-around;
   padding-left: 0;
   margin-top: 30px;
+}
+
+/*social stats flexbox*/
+
+.facebook-container,
+.instagram-container,
+.twitter-container {
+  display: flex;
+  margin: 0 3rem 3rem 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgb(241, 241, 241);
+  border: solid 3px rgb(195, 195, 195);
+  border-radius: 15px;
+}
+
+.facebook-icon,
+.instagram-icon,
+.twitter-icon {
+  width: 12em;
+  height: 12em;
+  margin-left: 6em;
+}
+
+.facebook-text,
+.instagram-text,
+.twitter-text {
+  margin-left: 3rem;
+}
+
+.social-word {
+  color: rgb(127,102,195);
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: -.3em;
+}
+
+.social-counter {
+  color: rgb(104, 104, 104);
+  font-size: 7em;
+  margin-top: 0;
+  margin-bottom: 0;
 }

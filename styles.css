@@ -16,7 +16,7 @@ ul {
 
 h2,
 h3 {
-  margin: 3rem 0 3rem 1.5rem;
+  margin: 3rem 0 3rem 3rem;
 }
 
 /*id selectors*/
@@ -45,7 +45,7 @@ h3 {
 .instagram-icon,
 .twitter-icon {
   fill: white;
-  background-color: rgb(127, 102, 195);
+  background: rgb(127, 102, 195);
   border-radius: 50%;
 }
 
@@ -67,8 +67,18 @@ h3 {
 }
 
 .button-disabled {
-  background-color:rgb(185, 185, 185);
+  background-color:rgb(195, 195, 195);
   border: none;
+}
+
+.daily,
+.mobile,
+.social,
+.members,
+.activity,
+.message,
+.settings {
+  border-top: solid 3px rgb(195, 195, 195);
 }
 
 /* Toggle Switch */
@@ -80,7 +90,7 @@ h3 {
   border-radius: 25px;
   transition: background .3s;
   background-color: rgb(127, 102, 195);
-  outline: solid 2px rgb(185, 185, 185);
+  outline: solid 2px rgb(195, 195, 195);
   cursor: pointer;
 }
 
@@ -109,11 +119,11 @@ h3 {
   height: 1.3rem;
   width: 1.3rem;
   background-color: white;
-  outline: solid 2px rgb(185, 185, 185);
+  outline: solid 2px rgb(195, 195, 195);
 }
 
 #toggle-switch:checked {
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(195, 195, 195);
 }
 
 #toggle-switch:checked:after {
