@@ -217,26 +217,29 @@
 
       <section class="settings">
         <h3>SETTINGS</h3>  
+          
+        <div class="toggleSwitch-container">
+          <p class="toggle-text">Send Email Notifications</p>
+          <input class="toggle-switch" id="toggle-switch" type="checkbox" name="toggle-switch">
 
-            <p class="toggle-text">Send Email Notifications</p>
-            <input id="toggle-switch" type="checkbox" name="toggle-switch">
+          <p class="toggle-text">Set Profile to Public</p>
+          <input class="toggle-switch" id="toggle-switch" type="checkbox" name="toggle-switch">
+        </div>
 
-            <p class="toggle-text">Set Profile to Public</p>
-            <input id="toggle-switch" type="checkbox" name="toggle-switch">
-
-          <select class="form-field" id="timezone">
-            <option disabled selected>Select a Timezone</option>
-            <option>Eastern</option>
-            <option>Central</option>
-            <option>Mountain</option>
-            <option>Pacific</option>
-            <option>Alaskan</option>
-            <option>Hawaiian</option>  
-          </select>     
-          <div class="settings-button">
-            <button class="button-primary" id="save">SAVE</button>
-            <button class="button-disabled" id="cancel">CANCEL</button>
-          </div>  
+        <select class="form-field" id="timezone" name="timezone">
+          <option disabled selected>Select Timezone</option>
+          <option value="eastern">Eastern</option>
+          <option value="central">Central</option>
+          <option value="mountain">Mountain</option>
+          <option value="pacific">Pacific</option>
+          <option value="alaskan">Alaskan</option>
+          <option value="hawaiian">Hawaiian</option>  
+        </select> 
+            
+        <div class="settings-button">
+          <button class="button-primary" id="save">SAVE</button>
+          <button class="button-disabled" id="cancel">CANCEL</button>
+        </div>  
       </section>
     </main>
   </body>

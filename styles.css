@@ -22,6 +22,23 @@ h3 {
 
 /*id selectors*/
 
+#send {
+  width: 94vw;
+  margin: 0 3rem 3rem 3rem;
+}
+
+#timezone {
+  width: 95vw;
+  height: 3em;
+  color: rgb(150, 150, 150);
+  margin-top: 4rem;
+}
+
+#save,
+#cancel {
+  width: 45vw;
+  padding: 0;
+}
 
 /*class selectors*/
 
@@ -112,17 +129,6 @@ h3 {
   font-size: 48px;
   border: solid 3px rgb(195,195,195);
   border-radius: 15px;
-}
-
-#send {
-  width: 94vw;
-  margin: 0 3rem 3rem 3rem;
-}
-
-#save,
-#cancel {
-  width: 44vw;
-  padding: 0;
 }
 
 .button-primary {
