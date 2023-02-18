@@ -84,8 +84,16 @@
 }
 
 .social-counter {
-  color: rgb(104, 104, 104);
+  color: rgb(150, 150, 150);
   font-size: 7em;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/*save & cancel buttons*/
+
+.settings-button {
+  display: flex;
+  margin: 0 3rem 4rem 3rem;
+  justify-content: space-between;
 }

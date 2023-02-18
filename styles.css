@@ -84,14 +84,53 @@ h3 {
   color: white;
 }
 
+.form-field,
+.form-area {
+  width: 85vw;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(195, 195, 195);
+  font-size: 48px;
+  border: solid 3px rgb(195,195,195);
+  border-radius: 15px;
+  background-color: rgb(241,241,241);
+  margin: 0 1em 1em 1em;
+  padding: .5em .8em;
+}
+
+.form-field {
+  height: 2em;
+}
+
+.form-area {
+  height: 8em;
+}
+
+.button-primary,
+.button-disabled {
+  height: 9rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 48px;
+  border: solid 3px rgb(195,195,195);
+  border-radius: 15px;
+}
+
+#send {
+  width: 94vw;
+  margin: 0 3rem 3rem 3rem;
+}
+
+#save,
+#cancel {
+  width: 44vw;
+  padding: 0;
+}
+
 .button-primary {
   background-color:rgb(127, 102, 195);
-  border: none;
 }
 
 .button-disabled {
-  background-color:rgb(195, 195, 195);
-  border: none;
+  background-color:rgb(150, 150, 150);
 }
 
 .daily,
