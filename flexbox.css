@@ -6,7 +6,7 @@
   }
   
   .header-item1 {
-    margin-left: 1rem;
+    margin-left: .5rem;
   }
   
   .header-item2,
@@ -98,7 +98,7 @@
   justify-content: space-between;
 }
 
-/*toggle switches grid*/
+/*settings toggle switches grid*/
 
 .toggleSwitch-container {
   display: grid;
