@@ -33,10 +33,7 @@
   
   .header-item5 {
     font-size: 13px;
-    margin-top: 1.4rem; 
-    margin-right: .5rem;
-    margin-left: .5rem;
-    margin-bottom: 0;
+    margin: 1.4rem .5rem 0 .5rem; 
   }
 
 /*traffic flexbox*/
