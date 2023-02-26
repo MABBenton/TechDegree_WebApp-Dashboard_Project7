@@ -52,7 +52,8 @@ h3 {
 }
 
 .nav-icon {
-  padding: 1em;
+  padding: .6rem .6rem .4rem;
+  height: 2rem;
 }
 
 .widget-container-full,

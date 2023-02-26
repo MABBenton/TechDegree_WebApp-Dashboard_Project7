@@ -1,4 +1,4 @@
-/*header flexbox*/
+/* header flexbox */
 
 .header {
     display: flex;
@@ -7,15 +7,11 @@
   
   .header-item1 {
     font-size: 20px;
-    margin-top: 1rem;
-    margin-left: .5rem;
-    margin-bottom: 0;
+    margin: 1rem 0 0 .5rem;
   }
   
   .header-item2 {
-    margin-top: .8rem;
-    margin-left: 2rem;
-    margin-bottom: .8rem;
+    margin: .8rem 0 .8rem 2rem;
     border-right: solid 1px rgb(195, 195, 195);
     padding-right: .7rem;
   }
@@ -36,7 +32,22 @@
     margin: 1.4rem .5rem 0 .5rem; 
   }
 
-/*traffic flexbox*/
+/* nav flexbox */  
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item1 {
+  margin-left: 2.5rem;
+}
+
+.nav-item4 {
+  margin-right: 2.5rem;
+}
+
+/* traffic flexbox */
 
 .traffic-nav {
   display: flex;
@@ -46,7 +57,7 @@
   margin-top: 30px;
 }
 
-/*social stats flexbox*/
+/* social stats flexbox */
 
 .facebook-container,
 .instagram-container,
@@ -88,7 +99,7 @@
   margin-bottom: 0;
 }
 
-/*save & cancel buttons*/
+/* save & cancel buttons flexbox */
 
 .settings-button {
   display: flex;
@@ -96,7 +107,7 @@
   justify-content: space-between;
 }
 
-/*settings toggle switches grid*/
+/* settings toggle switches grid */
 
 .toggleSwitch-container {
   display: grid;
