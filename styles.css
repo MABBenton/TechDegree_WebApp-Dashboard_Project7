@@ -16,7 +16,7 @@ ul {
 
 h2,
 h3 {
-  margin: 1rem .8rem 1.2rem .8rem;
+  margin: 1rem .8rem 1.2rem;
   font-weight: bolder;
 }
 
@@ -27,8 +27,9 @@ h2 {
 /*id selectors*/
 
 #send {
-  width: 94vw;
-  margin: 0 3rem 3rem 3rem;
+  width: 88vw;
+  margin: 0 .8rem 1.2rem;
+  padding: 0 .8rem;
 }
 
 #timezone {
@@ -36,12 +37,6 @@ h2 {
   height: 3em;
   color: rgb(150, 150, 150);
   margin-top: 4rem;
-}
-
-#save,
-#cancel {
-  width: 45vw;
-  padding: 0;
 }
 
 /*class selectors*/
@@ -108,32 +103,32 @@ h2 {
 
 .form-field,
 .form-area {
-  width: 85vw;
+  width: 80vw;
   font-family: 'Noto Sans', sans-serif;
   color: rgb(195, 195, 195);
-  font-size: 48px;
+  font-size: 16px;
   border: solid 1px rgb(195,195,195);
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: rgb(241,241,241);
-  margin: 0 1em 1em 1em;
-  padding: .5em .8em;
+  margin: 0 .8rem 1.2rem;
+  padding: .5rem .8rem;
 }
 
 .form-field {
-  height: 2em;
+  height: 2rem;
 }
 
 .form-area {
-  height: 8em;
+  height: 9rem;
 }
 
 .button-primary,
 .button-disabled {
-  height: 9rem;
+  height: 3.3rem;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 48px;
-  border: solid 3px rgb(195,195,195);
-  border-radius: 15px;
+  font-size: 17px;
+  border: solid 1px rgb(195,195,195);
+  border-radius: 6px;
 }
 
 .button-primary {

@@ -114,10 +114,16 @@
 
 /* save & cancel buttons flexbox */
 
-.settings-button {
+.settings-buttons {
   display: flex;
-  margin: 0 3rem 4rem 3rem;
+  margin: 0 .8rem 2rem;
   justify-content: space-between;
+}
+
+#save,
+#cancel {
+  width: 42vw;
+  padding: 0;
 }
 
 /* settings toggle switches grid */
