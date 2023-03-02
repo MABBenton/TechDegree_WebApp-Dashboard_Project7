@@ -233,7 +233,7 @@ h3 {
 
 @media (min-width: 768px) {
   .grid-container {
-    grid-template-columns: 70px 1fr;
+    grid-template-columns: 60px 1fr;
     grid-template-areas:
       "header header"
       "nav main";
@@ -245,6 +245,17 @@ h3 {
 
   .widget-container-half {
     width: 45vw;
+  }
+
+  .header-item1 {
+    margin-left: auto;
+  }
+
+  .header-item2,
+  .header-item3,
+  .header-item4,
+  .header-item5 {
+    margin-right: auto;
   }
 }
 
