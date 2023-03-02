@@ -137,4 +137,24 @@
     margin-right: 0;
     margin-bottom: auto;
   }
+
+  .traffic-header {
+    display: flex;
+  }
+
+  .traffic-nav {
+    margin-top: 1rem;
+    margin-left: auto;
+    font-size: 15px;
+  }
+
+  .trafficNav-item1,
+  .trafficNav-item2,
+  .trafficNav-item3 {
+    margin-right: 2rem;
+  }
+
+  .social-container {
+    display: flex;
+  }
 }

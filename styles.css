@@ -269,12 +269,44 @@ h3 {
       "nav main";
   }
 
+  .main {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+  }
+
   .widget-container-full {
     width: 90vw;
   }
 
-  .widget-container-half {
+  .widget-container-half,
+  .daily,
+  .mobile {
     width: 45vw;
+  }
+
+  .main-header,
+  .alert,
+  .traffic,
+  .social,
+  .members,
+  .activity,
+  .message,
+  .settings {
+    grid-column: 1 / span 2;
+  }
+
+  .daily {
+    grid-column: 1 / span 1;
+  }
+
+  .mobile {
+    grid-column: 2 / span 1;
+  }
+
+  .daily {
+    width: 350px;
+    border-right: solid 1px rgb(195,195,195);
   }
 }
 
