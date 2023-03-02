@@ -46,7 +46,7 @@
 
 .nav-item4 {
   margin-right: 2.3rem;
-}
+}               
 
 /* main-header flexbox */
 
@@ -143,4 +143,33 @@
 
 .toggle-switch {
   margin: 0 .8rem 0 0;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .header-item1 {
+    margin-right: auto;
+  }
+
+  .header-item2 {
+    margin-left: auto;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav-item1,
+  .nav-item2,
+  .nav-item3,
+  .nav-item4 {
+    margin-left: .5rem;
+    margin-top: .6rem;
+  }
+
+  .nav-item4 {
+    margin-right: 0;
+    margin-bottom: auto;
+  }
 }
