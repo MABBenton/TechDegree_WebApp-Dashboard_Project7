@@ -36,9 +36,8 @@ h2 {
 }
 
 #timezone {
-  height: 3rem;
   color: rgb(150, 150, 150);
-  margin-top: 3rem;
+  margin-top: 2.8rem;
 }
 
 /*class selectors*/
@@ -116,19 +115,21 @@ h2 {
   padding: .5rem .8rem;
 }
 
-.form-field {
-  height: 3rem;
-}
-
 .form-area {
   height: 9rem;
 }
 
+.form-field,
+#timezone,
 .button-primary,
 .button-disabled {
-  height: 3.3rem;
+  height: 3rem;
+}
+
+.button-primary,
+.button-disabled {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   border: solid 1px rgb(195,195,195);
   border-radius: 6px;
 }
