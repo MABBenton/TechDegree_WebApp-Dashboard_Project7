@@ -44,6 +44,12 @@ h3 {
   margin-top: 2.8rem;
 }
 
+#save,
+#cancel {
+  width: 42vw;
+  padding: 0;
+}
+
 /*class selectors*/
 
 .header, 
@@ -68,9 +74,33 @@ h3 {
 .facebook-icon,
 .instagram-icon,
 .twitter-icon {
+  width: 4em;
+  height: 4em;
+  margin-left: 1em;
   fill: white;
   background: rgb(127, 102, 195);
   border-radius: 50%;
+}
+
+.facebook-text,
+.instagram-text,
+.twitter-text {
+  margin-left: 1rem;
+}
+
+.social-word {
+  color: rgb(127,102,195);
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: -.5em;
+}
+
+.social-counter {
+  color: rgb(125, 125, 125);
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .profile-image {
