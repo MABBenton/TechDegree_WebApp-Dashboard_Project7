@@ -76,7 +76,7 @@ h3 {
 .twitter-icon {
   width: 4em;
   height: 4em;
-  margin-left: 1em;
+  margin-left: 1rem;
   fill: white;
   background: rgb(127, 102, 195);
   border-radius: 50%;
@@ -307,6 +307,18 @@ h3 {
   .daily {
     width: 350px;
     border-right: solid 1px rgb(195,195,195);
+  }
+
+  .members-text,
+  .activity-text {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+  }
+
+  .members-item3 {
+    margin-top: 2rem;
+    margin-left: auto;
   }
 }
 

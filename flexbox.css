@@ -157,4 +157,33 @@
   .social-container {
     display: flex;
   }
+
+  .facebook-container {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+
+  .instagram-container,
+  .twitter-container {
+    margin-left: 0;
+    margin-right: .5rem;
+  }
+
+  .facebook-icon,
+  .instagram-icon,
+  .twitter-icon {
+    margin-left: .7rem;
+  }
+
+  .facebook-text,
+  .instagram-text,
+  .twitter-text {
+    margin-left: .7rem;
+    margin-right: .7rem;
+  }
+
+  .members-container,
+  .activity-container {
+    display: flex;
+  }
 }
