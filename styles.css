@@ -320,6 +320,11 @@ h3 {
     margin-top: 2rem;
     margin-left: auto;
   }
+
+  #save,
+  #cancel {
+    width: 330px;
+  }
 }
 
 @media (min-width: 1024px) {

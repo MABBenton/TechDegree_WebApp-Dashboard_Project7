@@ -186,4 +186,8 @@
   .activity-container {
     display: flex;
   }
+
+  .toggleSwitch-container {
+    grid-template-columns: .5fr 1fr;
+  }
 }
