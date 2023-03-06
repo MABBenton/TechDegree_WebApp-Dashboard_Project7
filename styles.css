@@ -53,7 +53,10 @@ h3 {
 /*class selectors*/
 
 .header, 
-.alert {
+.alert,
+.facebook-icon,
+.instagram-icon,
+.twitter-icon {
   background-color:rgb(127, 102, 195);
 }
 
@@ -78,7 +81,6 @@ h3 {
   height: 4em;
   margin-left: 1rem;
   fill: white;
-  background: rgb(127, 102, 195);
   border-radius: 50%;
 }
 
