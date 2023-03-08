@@ -61,6 +61,16 @@
   border-bottom: solid 1px rgb(195,195,195);
 }
 
+/* alert flexbox */
+
+.alert-banner {
+  display: flex;
+}
+
+.alert-banner-close {
+  margin-left: auto;
+}
+
 /* traffic flexbox */
 
 .traffic-nav {
@@ -81,7 +91,7 @@
   padding: 1.1rem 0 .7rem 0;
   background-color: rgb(241, 241, 241);
   border: solid 1px rgb(195, 195, 195);
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 /* save & cancel buttons flexbox */

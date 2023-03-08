@@ -14,7 +14,7 @@ a {
 
 ul {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 h2,
@@ -56,8 +56,16 @@ h3 {
 .alert,
 .facebook-icon,
 .instagram-icon,
-.twitter-icon {
+.twitter-icon,
+.button-primary {
   background-color:rgb(127, 102, 195);
+}
+
+.header, 
+.alert, 
+.button-primary, 
+.button-disabled {
+  color: white;
 }
 
 .nav {
@@ -67,6 +75,23 @@ h3 {
 .nav-icon {
   padding: .6rem .4rem .4rem;
   height: 3rem;
+}
+
+.alert {
+  border-radius: 6px;
+  margin-left: .6rem;
+  margin-right: .6rem;
+}
+
+.alert-banner {
+  margin: 1rem .6rem 0;
+}
+
+.alert-banner p,
+.alert-banner-close {
+  font-size: 15px; 
+  margin-top: .6rem;
+  margin-bottom: .6rem;
 }
 
 .widget-container-full,
@@ -112,7 +137,7 @@ h3 {
 
 .members-container,
 .activity-container {
-  margin: 1.5rem 1rem;
+  margin: 1.5rem .6rem;
   text-align: center;
 }
 
@@ -121,7 +146,8 @@ h3 {
 .activity-text p {
   margin: 0;
   line-height: 1.2;
-  font-size: 14px;
+  font-size: 13px;
+  padding: 0 4px;
 }
 
 .member1,
@@ -131,13 +157,6 @@ h3 {
   padding-bottom: 1.2rem;
 }
 
-.header, 
-.alert, 
-.button-primary, 
-.button-disabled {
-  color: white;
-}
-
 .form-field,
 .form-area {
   width: 88vw;
@@ -145,7 +164,7 @@ h3 {
   color: rgb(195, 195, 195);
   font-size: 16px;
   border: solid 1px rgb(195,195,195);
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: rgb(241,241,241);
   margin: 0 .8rem 1.2rem;
   padding: .5rem .8rem;
@@ -168,10 +187,6 @@ h3 {
   font-size: 15px;
   border: solid 1px rgb(195,195,195);
   border-radius: 6px;
-}
-
-.button-primary {
-  background-color:rgb(127, 102, 195);
 }
 
 .button-disabled {
