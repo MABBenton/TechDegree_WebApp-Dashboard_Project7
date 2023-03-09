@@ -197,3 +197,20 @@
     grid-template-columns: .5fr 1fr;
   }
 }
+
+@media (min-width: 1024px) {
+  
+  .social-container {
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .facebook-container,
+  .instagram-container,
+  .twitter-container {
+    width: 19rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
