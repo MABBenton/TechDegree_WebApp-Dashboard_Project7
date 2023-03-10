@@ -379,4 +379,19 @@ h3 {
   .settings {
     grid-column: 2 / span 1;
   }
+
+  .members,
+  .message {
+    border-right: solid 1px rgb(195, 195, 195);
+  }
+
+  .form-field,
+  .form-area,
+  #send {
+    width: 44.5vw;
+  }
+
+  #timezone {
+    margin-bottom: 1.3rem;
+  }
 }
