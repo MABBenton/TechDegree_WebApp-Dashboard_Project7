@@ -394,4 +394,9 @@ h3 {
   #timezone {
     margin-bottom: 1.3rem;
   }
+
+  #save,
+  #cancel {
+    width: 224px;
+  }
 }

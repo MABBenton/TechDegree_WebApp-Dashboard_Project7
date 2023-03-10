@@ -1,6 +1,6 @@
+//alert banner
 const alertBanner = document.getElementById('alert');
 
-//create the html for the banner
 alertBanner.innerHTML =
   `<div class="alert-banner">
     <p><strong>Alert:</strong> You have unread messages</p> 
@@ -13,3 +13,8 @@ alertBanner.innerHTML =
         alertBanner.style.display = "none";
     }
   })
+
+  // activity section
+  const activityArrow = document.getElementsByClassName('activity-container');
+
+  activityArrow.innerHTML = `<p class="activity-arrow"> > </p>`
