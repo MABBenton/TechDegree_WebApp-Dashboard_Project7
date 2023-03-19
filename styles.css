@@ -160,6 +160,10 @@ h3 {
   padding-bottom: 1.2rem;
 }
 
+.carrot {
+  display: none;
+}
+
 .form-field,
 .form-area,
 #send {
@@ -344,6 +348,10 @@ h3 {
   .members-item3 {
     margin-top: 2rem;
     margin-left: auto;
+  }
+
+  .carrot {
+    display: block;
   }
 
   #save,

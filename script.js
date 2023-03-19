@@ -17,4 +17,6 @@ alertBanner.innerHTML =
   // activity section
   const activityArrow = document.getElementsByClassName('activity-container');
 
-  activityArrow.innerHTML = `<p class="activity-arrow"> > </p>`
+  for (let i = 0; i < activityArrow.length; i++) {
+    activityArrow[i].insertAdjacentHTML('beforeend',`<div class='carrot'>></div>`);
+  }
