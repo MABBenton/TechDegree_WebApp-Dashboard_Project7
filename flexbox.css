@@ -193,13 +193,19 @@
     display: flex;
   }
 
+  .carrot {
+    margin-top: 1.2rem;
+    margin-left: auto;
+    font-size: 20px;
+  }
+
   .toggleSwitch-container {
     grid-template-columns: .5fr 1fr;
   }
 }
 
 @media (min-width: 1024px) {
-  
+
   .social-container {
     justify-content: space-between;
     margin-left: 1rem;
