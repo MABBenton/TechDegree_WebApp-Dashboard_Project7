@@ -71,11 +71,13 @@ let dailyData = {
   datasets: [{
     data: [0, 50, 100, 150, 200, 250, 300],
     backgroundColor: 'rgb(127, 102, 195)',
+    borderColor: 'rgb(78, 64, 119)',
     borderWidth: 1
   }]
 };
 
-const dailyOptions = {
+let dailyOptions = {
+  color: 'rgb(150, 150, 150)',
   scales: {
     y: {
       beginAtZero: true
@@ -87,3 +89,14 @@ const dailyOptions = {
     }
   }
 };
+
+let dailyChart = new Chart(dailyCanvas, {
+  type: 'bar',
+  data: dailyData,
+  options: dailyOptions
+});
+
+// doughnut chart
+const mobileCanvas = document.getElementById("mobile-chart");
+
+let 
