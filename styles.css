@@ -31,6 +31,10 @@ h3 {
   font-size: 15px;
 }
 
+canvas {
+  padding-bottom: 1rem;
+}
+
 /*id selectors*/
 
 #send {
