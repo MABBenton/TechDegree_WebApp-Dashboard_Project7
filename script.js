@@ -56,3 +56,34 @@ let trafficOptions = {
     }
   }
 };
+
+let trafficChart = new Chart(trafficCanvas, {
+  type: 'line',
+  data: trafficData,
+  options: trafficOptions
+});
+
+// bar graph
+const dailyCanvas = document.getElementById("daily-chart");
+
+let dailyData = {
+  labels: ["S", "M", "T", "W", "T", "F", "S"],
+  datasets: [{
+    data: [0, 50, 100, 150, 200, 250, 300],
+    backgroundColor: 'rgb(127, 102, 195)',
+    borderWidth: 1
+  }]
+};
+
+const dailyOptions = {
+  scales: {
+    y: {
+      beginAtZero: true
+    }
+  },
+  plugins: {
+    legend: {
+      display: false
+    }
+  }
+};
