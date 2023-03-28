@@ -99,4 +99,34 @@ let dailyChart = new Chart(dailyCanvas, {
 // doughnut chart
 const mobileCanvas = document.getElementById("mobile-chart");
 
-let 
+let mobileData = {
+  labels: ["Desktop", "Tablet", "Phones"],
+  datasets: [{
+    data: [60, 25, 15],
+    borderWidth: 0,
+    backgroundColor: [
+      'rgb(127, 102, 195)',
+      'rgb(83, 198, 118)',
+      'rgb(83, 177, 198)'
+    ]
+  }]
+};
+
+let mobileOptions = {
+  aspectRatio: 1.9,
+  plugins: {
+    legend: {
+      position: 'right',
+      labels: {
+        boxWidth: 20,
+        fontStyle: 'bold'
+      }
+    }
+  }
+};
+
+let mobileChart = new Chart(mobileCanvas, {
+  type: 'doughnut',
+  data: mobileData,
+  options: mobileOptions
+});
