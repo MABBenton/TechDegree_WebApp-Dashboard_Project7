@@ -32,6 +32,9 @@ h3 {
 }
 
 canvas {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: .5rem;
   padding-bottom: 1rem;
 }
 
@@ -318,6 +321,10 @@ canvas {
     width: 45vw;
   }
 
+  #mobile-chart {
+    margin-bottom: 1rem;
+  }
+
   .main-header,
   .alert,
   .traffic,
@@ -369,6 +376,10 @@ canvas {
   .main {
     max-width: 1024px;
     grid-template-columns: 482px 482px;
+  }
+
+  .widget-container-full {
+    width: 93vw;
   }
 
   .traffic,
