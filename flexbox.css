@@ -11,7 +11,7 @@
   }
   
   .header-item2 {
-    margin: 1rem 0 1rem 1.4rem;
+    margin: 1rem 0 1rem auto;
     border-right: solid 1px rgb(195, 195, 195);
     padding-right: .7rem;
   }
