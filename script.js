@@ -28,7 +28,7 @@ const send = document.getElementById('send');
 
 send.addEventListener('click', () => {
   if ( user.value === '' && message.value === '') {
-    alert("Both fields must be filled in before sending.");
+    alert("Both search and messge fields must be filled in before sending.");
   } else if ( user.value === '' ) {
     alert("The user field must be filled in before sending.");
   } else if ( message.value === '' ) {
