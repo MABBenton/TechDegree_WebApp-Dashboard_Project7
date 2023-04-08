@@ -74,6 +74,11 @@ canvas {
   color: white;
 }
 
+.bell-icon:hover {
+  transition: fill .4s ease-in; 
+  fill: rgb(234, 234, 26);
+}
+
 .nav {
   background-color:rgb(78, 64, 119);
 }
