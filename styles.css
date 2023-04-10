@@ -5,6 +5,7 @@
 /*element selectors*/
 body {
   font-family: 'Noto Sans', sans-serif;
+  margin: 0;
 }
 
 a {
@@ -52,7 +53,7 @@ canvas {
 
 #save,
 #cancel {
-  width: 42vw;
+  width: 44vw;
   padding: 0;
 }
 
@@ -204,7 +205,7 @@ canvas {
 .form-field,
 .form-area,
 #send {
-  width: 88vw;
+  width: 92vw;
 }
 
 .form-field,
@@ -400,6 +401,12 @@ canvas {
   .carrot {
     display: block;
     color: rgb(127, 102, 195);
+  }
+
+  .form-field,
+  .form-area,
+  #send {
+    width: 88vw;
   }
 
   #save,
