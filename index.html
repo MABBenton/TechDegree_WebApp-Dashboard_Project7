@@ -11,7 +11,7 @@
   </head>
 
   <body class="grid-container">
-    <header class="header">
+    <header class="header" id="home">
       <h1 class="header-item1">WebApp &#8482</h1>
 
       <div class="header-item2">
@@ -28,16 +28,16 @@
     </header>
 
     <nav class="nav">
-      <a class="nav-item1">
+      <a class="nav-item1" href="#home">
         <img class="nav-icon" src="./svgs/home.svg" alt="Icon of a house">
       </a>
-      <a class="nav-item2">
+      <a class="nav-item2" href="#charts">
         <img class="nav-icon" src="./svgs/bar-chart.svg" alt="Icon of a bar chart">
       </a>
-      <a class="nav-item3"> 
+      <a class="nav-item3" href="#members"> 
         <img class="nav-icon" src="./svgs/members.svg" alt="Icon of members">
       </a>
-      <a class="nav-item4">
+      <a class="nav-item4" href="#settings">
         <img class="nav-icon" src="./svgs/settings.svg" alt="Icon of a cog">
       </a>
     </nav>
@@ -54,7 +54,7 @@
       </div>
 
       <!--line graph chart-->
-      <section class="traffic">
+      <section class="traffic" id="charts">
         <div class="traffic-header">
           <h3>TRAFFIC</h3>
           <ul class="traffic-nav">
@@ -244,7 +244,7 @@
         </div>      
       </section>
 
-      <section class="members">
+      <section class="members" id="members">
         <h3>NEW MEMBERS</h3>
 
         <div class="members-container member1">
@@ -331,7 +331,7 @@
         </form>
       </section>
 
-      <section class="settings">
+      <section class="settings" id="settings">
         <h3>SETTINGS</h3>  
           
         <div class="toggleSwitch-container" id="toggleSwitch-container">
