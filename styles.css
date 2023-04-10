@@ -79,6 +79,16 @@ canvas {
   fill: rgb(234, 234, 26);
 }
 
+.header-item3 {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: rgb(83, 198, 118);
+  display: inline-block;
+  margin-left: -.35rem;
+  margin-bottom: 1.3rem;
+}
+
 .nav {
   background-color:rgb(78, 64, 119);
 }
