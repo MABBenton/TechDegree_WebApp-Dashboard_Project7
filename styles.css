@@ -430,7 +430,6 @@ canvas {
 
 @media (min-width: 1024px) {
   .main {
-    max-width: 1024px;
     grid-template-columns: 1fr 1fr;
   }
 
